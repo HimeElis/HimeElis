@@ -1,0 +1,400 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #efefef;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+a:focus {
+    outline: 0;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+.contenedor {
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.c-izquierda {
+    width: 26%;
+    float: left;
+}
+
+.c-derecha {
+    width: 72%;
+    margin-bottom: 20px;
+    float: right;
+    background: #ffffff;
+}
+
+.mi-foto {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.icono.imagen-sobre-mi {
+    background-image: url('../images/sobre-mi.png');
+}
+
+.icono.imagen-educacion {
+    background-image: url('../images/educacion.png');
+}
+
+.icono.imagen-experiencia-laboral {
+    background-image: url('../images/experiencia-laboral.png');
+}
+
+.icono.imagen-hobbie {
+    background-image: url('../images/hobbie.png');
+}
+.hipervinculo:hover .icono.imagen-sobre-mi {
+    background-image: url('../images/sobre-mi-hover.png');
+}
+.hipervinculo:hover .icono.imagen-educacion {
+    background-image: url('../images/educacion-hover.png');
+}
+
+.hipervinculo:hover .icono.imagen-experiencia-laboral {
+    background-image: url('../images/experiencia-laboral-hover.png');
+}
+
+.hipervinculo:hover .icono.imagen-hobbie {
+    background-image: url('../images/hobbie-hover.png');
+}
+.item {
+    display: block;
+    padding: 0px;
+    border-bottom: 1px solid #26292e;
+    height: 45px;
+}
+
+.redes {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+}
+
+
+.red.facebook {
+    background-image: url('../images/redes-facebook.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.facebook:hover {
+    background-image: url('../images/redes-facebook-hover.png');
+}
+
+.red.twitter {
+    background-image: url('../images/redes-twitter.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.twitter:hover {
+    background-image: url('../images/redes-twitter-hover.png');
+}
+
+.red.linkedin {
+    background-image: url('../images/redes-linkedin.png');
+    background-position: 50% 50%;
+    background-size: cover;
+
+    }
+
+.red.linkedin:hover {
+    background-image: url('../images/redes-linkedin-hover.png');
+}
+
+.hipervinculo {
+    width: 100%;
+    padding: 10px 20px;
+    background: #33373d;
+    cursor: pointer;
+}
+
+.hipervinculo:hover {
+    background: #ffd414;
+}
+
+.texto-hipervinculo {
+    float: right;
+    color: #85878b;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hipervinculo:hover .texto-hipervinculo {
+    color: #fff;
+}
+.titulo-seccion {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.seccion-titulo {
+    position: relative;
+    padding: 30px 10px 2px 40px;
+    border-bottom: 1px solid #efefef;
+}
+
+.linea {
+    position: absolute;
+    left: 30px;
+    top: 52px;
+    width: 60px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+}
+
+.sobre-mi {
+    padding: 40px;
+}
+
+.titulo-sobre-mi {
+    margin-bottom: 24px;
+}
+
+.nombre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.profesion {
+    margin-top: 0px;
+    color: #777;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.columna-6 {
+    width: 50%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left;
+    color: #777;
+    font-weight: 300;
+}
+
+.inf {
+    display: inline-block;
+    width: 35%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 1px solid #efefef;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.value {
+    display: inline-block;
+    width: 63%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.item-datos {
+    border-bottom: 1px solid #efefef;
+    background: #fafafa;
+}
+
+.lista-datos {
+    border: 1px solid #efefef;
+    text-align: center;
+}
+
+.estudios, .experiencia-laboral {
+    padding: 30px 40px 40px;
+}
+
+.calendario {
+    width: 16px;
+}
+
+.fecha-texto {
+    display: inline-block;
+    margin-left: 4px;
+    color: #777;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.titulo-evento {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.texto-evento {
+    margin-top: 10px;
+    color: #777;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.item-estudio {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hobbies {
+    padding: 40px;
+}
+
+.item-hobbie {
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.imagen-musica {
+    width: 100%;
+    min-height: 110px;
+    background-image: url('../images/musica.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.texto-hobbie {
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.imagen-leer {
+    width: 100%;
+    min-height: 110px;
+    background-image: url('../images/leer.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.imagen-gimnasio {
+    width: 100%;
+    min-height: 110px;
+    background-image: url('../images/gimnasio.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.imagen-reparar {
+    width: 100%;
+    min-height: 110px;
+    background-image: url('../images/tecnico-femenino-placa-base-computadora.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
